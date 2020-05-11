@@ -32,5 +32,7 @@ function cclick() {
     var why9 = why8.replace(/ASS/g, "ARSE")
     document.querySelector("span").textContent = why9;
 }
-//note: no feelings were hurt within the making of this
-//and if a word is vulgar in any part of the word it was added
+/*note: no feelings were hurt within the making of this
+and if a word is vulgar in any part of the word it was added
+also, to clarify, since the making of this, i have thought about using toLowerCase()
+*/
