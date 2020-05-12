@@ -10,6 +10,25 @@ a:hover {
 a:active {
     color: rgb(255, 115, 0);
 }
+h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(158, 255, 158);
+    color: rgb(255, 174, 0)
+}
+h3 {
+    color: rgb(255, 132, 83);
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#doublespaced {
+    padding: 12px;
+}
+#spaced {
+    padding: 10px;
+}
+#minispaced {
+    padding: 5px;
+}
 footer {
     padding: 12px;
     color: rgb(134, 209, 91);
