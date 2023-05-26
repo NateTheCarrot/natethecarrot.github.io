@@ -1,22 +1,25 @@
-a:link {
-    color: yellow;
+a {
+    text-decoration: none;
 }
-a:visited {
-    color: rgb(29, 122, 0);
+a:link {
+    color: rgb(255, 167, 66);
 }
 a:hover {
-    color: rgb(255, 166, 0);
+    color: rgb(255, 149, 29);
 }
 a:active {
-    color: rgb(255, 115, 0);
+    color: rgb(253, 114, 0);
 }
+ a:visited {
+    color: rgb(197, 118, 0);
+} /* i really don't like this, might just make everything a button */
+
 .interviewee {
     color: rgb(95, 236, 255);
 }
 h1 {
     font-family: Tahoma, Geneva, sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 3px rgb(158, 255, 158);
     color: rgb(255, 145, 0)
 }
 h2 {
@@ -28,6 +31,9 @@ h3 {
     color: rgb(255, 132, 83);
     font-family: Tahoma, Geneva, sans-serif;
 }
+footer {
+    margin: 40px;
+}
 #doublespaced {
     padding: 12px;
 }
@@ -36,6 +42,12 @@ h3 {
 }
 #minispaced {
     padding: 5px;
+}
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 footer {
     padding: 12px;
@@ -47,4 +59,24 @@ footer {
 }
 body {
     background-color: rgb(46, 46, 46);
+}
+.button {
+    border: none;
+    background-color: rgb(255, 167, 66);
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px 32px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 9px #000000; /* might remove later, dont know if this makes the text look better or worse on orange */
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Lilita One';
+    font-size:16px;
+}
+.button:hover {
+    background-color: rgb(0, 122, 39);
+    /* rgb(46, 77, 56) is also good */
 }

@@ -1,6 +1,6 @@
 h1 {
-    color: orange;
-    text-shadow: 2px 2px 6px green;
+    color: rgb(255, 167, 66);
+
     text-align: center;
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 4vw;
@@ -21,13 +21,12 @@ h6 {
     text-align: center;
     font-family: Tahoma, Geneva, sans-serif;
 }
-@keyframes in {
+/* @keyframes in {
     from {color: rgb(46, 46, 46)}
-    to {color: orange;}
-    from {text-shadow: 2px 2px 6px rgb(46, 46, 46)}
-    to {text-shadow: 2px 2px 6px green;}
-    /*eventually make title move a bit, like the minecraft title in the main menu or something*/
-}
+    to {color: rgb(255, 167, 66);}
+    -- eventually make title move a bit, like the minecraft title in the main menu or something --
+ } 
+ */
 div {
     padding: 3px 0px 3px 0px;
 }
