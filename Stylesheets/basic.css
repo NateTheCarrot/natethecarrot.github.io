@@ -2,18 +2,8 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   box-sizing: border-box; 
-}
-
-p { 
-  color: white; 
-  font-weight: 100; 
-  font-style: normal; 
-}
-
-header {
-  color: white; 
-  font-size: 3rem; 
-  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 html { 
@@ -29,7 +19,61 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  
-  justify-content: center; 
   align-items: center; 
+}
+
+.siteHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.siteHeader .logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.siteHeader nav ul {
+  list-style: none;               
+  display: flex;                  
+  gap: 30px;
+}
+
+.siteHeader nav a {
+  color: white;
+  text-decoration: none;          
+  font-size: 1rem;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.siteHeader nav a:hover {
+  color: rgba(255, 241, 147, 1)                 
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.comingSoon {
+  color: white; 
+  font-size: 3rem; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p { 
+  color: white; 
+  font-weight: 100; 
+  font-style: normal; 
 }
