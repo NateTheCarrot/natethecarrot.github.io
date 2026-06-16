@@ -52,7 +52,7 @@ body {
 }
 
 .siteHeader nav a:hover {
-  color: rgba(255, 241, 147, 1)                 
+  color: rgba(255, 241, 147, 1)
 }
 
 .siteHeader nav ul li.hasDropdown {
@@ -114,6 +114,20 @@ body {
 
 p { 
   color: white; 
-  font-weight: 100; 
+  font-weight: 300; 
   font-style: normal; 
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:link, a:visited {
+  color: rgba(255, 241, 147, 1)
+}
+a:hover {
+  color: rgb(255, 231, 71)
+}
+a:active {
+  color: rgb(255, 221, 0);
 }
