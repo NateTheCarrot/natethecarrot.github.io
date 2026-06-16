@@ -1,0 +1,35 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box; 
+}
+
+p { 
+  color: white; 
+  font-weight: 100; 
+  font-style: normal; 
+}
+
+header {
+  color: white; 
+  font-size: 3rem; 
+  font-weight: bold;
+}
+
+html { 
+  background-image: url('../Images/spaceBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100dvh; 
+}
+
+body { 
+  min-height: 100dvh; 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center; 
+  align-items: center; 
+}
