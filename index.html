@@ -20,16 +20,22 @@
 </head>
 
 <body> 
-  <header class="siteHeader"> 
-    <div class="logo">Nathan J.</div> 
-    <nav class="navigation"> 
-      <ul> 
-        <li><a href="">Home</a></li> 
-        <li><a href="/projects/">Projects</a></li> 
-        <li><a href="/contact">Contact</a></li> 
-      </ul> 
-    </nav> 
-  </header> 
+    <header class="siteHeader"> 
+        <div class="logo">Nathan J.</div> 
+        <nav class="navigation"> 
+            <ul> 
+                <li><a href="/">Home</a></li> 
+                <li class="hasDropdown">
+                    <a href="/projects/">Projects</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/academic">Academic</a></li>
+                        <li><a href="/projects/fun">Fun</a></li>
+                    </ul>
+                </li> 
+                <li><a href="/contact">Contact</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
 
   <main class="mainContent">
     <p class="comingSoon">😁 COMING SOON 😁</p> 
