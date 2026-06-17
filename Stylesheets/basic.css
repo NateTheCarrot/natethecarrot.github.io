@@ -118,6 +118,35 @@ p {
   font-style: normal; 
 }
 
+.sideBySideButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+button {
+  background-color: rgba(255, 241, 147, 1);
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 100px;
+  transition: background-color 0.3s ease, font-weight 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(255, 231, 71);
+  font-weight: 700;
+  cursor:pointer;
+}
+button:active {
+  background-color: rgb(255, 221, 0);
+}
+
 a {
   text-decoration: none;
   transition: color 0.3s ease;
