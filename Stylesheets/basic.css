@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 html { 
   background-image: url('../Images/spaceBackground.jpg');
   background-size: cover;
@@ -105,17 +109,18 @@ body {
   padding: 20px;
 }
 
-.comingSoon {
+.pageTitle {
   color: white; 
-  font-size: 3rem; 
+  font-size: 4.5rem; 
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 p { 
-  color: white; 
-  font-weight: 300; 
-  font-style: normal; 
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .sideBySideButtons {
@@ -128,11 +133,11 @@ button {
   background-color: rgba(255, 241, 147, 1);
   border: none;
   color: black;
-  padding: 20px;
+  padding: 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.5rem;
   margin: 4px 2px;
   border-radius: 100px;
   transition: background-color 0.3s ease, font-weight 0.3s ease;

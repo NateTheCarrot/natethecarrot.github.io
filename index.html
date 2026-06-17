@@ -19,6 +19,14 @@
   <link rel="stylesheet" href="./Stylesheets/basic.css"> 
 </head>
 
+<script>
+    window.addEventListener('pageswap', async (e) => {
+        if (e.viewTransition) {
+            const currentUrl = e.activation.entry.url;
+        }
+    });
+</script>
+
 <body> 
     <header class="siteHeader"> 
         <div class="logo">Nathan J.</div> 
@@ -38,7 +46,7 @@
     </header> 
 
   <main class="mainContent">
-    <p class="comingSoon">Nathan Jimenez</p> 
+    <p class="pageTitle">NATHAN JIMENEZ</p> 
     <p>Astrophysicist by day, astrophysicist by night.</p>
     <div class="homeButtons" style="margin-top: 15px;">
         <a href="./projects/"><button>Projects</button></a>
