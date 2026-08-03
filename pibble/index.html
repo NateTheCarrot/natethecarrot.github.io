@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NJ - Pibblifier</title> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="theme-color" content="#171545"> 
+    
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content="https://nathanmj.com/"> 
+    <meta property="og:title" content="Pibble Mosaic Generator"> 
+    <meta property="og:description" content=""> 
+    <meta property="og:image" content="https://nathanmj.com/Images/spaceBackground.jpg"> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="../Stylesheets/basic.css">
+    <style>
+        canvas { 
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+        }
+    </style>
+
+    <script src="./pibble.js" defer></script>
+</head>
+
+<script>
+    window.addEventListener('pageswap', async (e) => {
+        if (e.viewTransition) {
+            const currentUrl = e.activation.entry.url;
+        }
+    });
+</script>
+
+<body>
+    <header class="siteHeader"> 
+        <div class="logo">Nathan J.</div> 
+        <nav class="navigation"> 
+            <ul> 
+                <li><a href="/">Home</a></li> 
+                <li class="hasDropdown">
+                    <a href="/projects/">Projects</a>
+                    <ul class="dropdown">
+                        <li><a href="/projects/academic">Academic</a></li>
+                        <li><a href="/projects/fun">Fun</a></li>
+                    </ul>
+                </li> 
+                <li><a href="/contact">Contact</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+
+    <h1 class="pageTitle">Pibblifier</h1>
+    <p>Welcome to the Pibblifier! Upload an image below to generate a pibble mosaic of your image.</p>
+    <p style="font-size: 0.9em; font-style: italic;">If you would like any updated attribution or particular pibbles removed (or added!), please contact me.</p>
+    
+    <dialog id="creditsModal">
+        <h3>Image Credits</h3>
+        <hr style="color: white; border: 1px solid white; width: 80%; margin-top: 0.5rem; margin-bottom: 1.0rem; align-items: center; margin-left: auto; margin-right: auto;">
+        <p><a href="https://www.instagram.com/grandiose_frenchies/" target="_blank">Grandiose Frenchies</a></p>
+        <p><a href="https://www.instagram.com/roseflower_frenchies/" target="_blank">Roseflower Frenchies</a></p>
+        <p><a href="https://www.instagram.com/yoshikage_pibble/" target="_blank">Yoshikage Pibble</a></p>
+        <p><a href="https://www.instagram.com/pibble12/" target="_blank">pibble12</a></p>
+        <p><a href="https://www.instagram.com/pibblelovesyou/" target="_blank">Pibble Zen (pibblelovesyou)</a></p>
+        <button id="closeCredits" style="margin-top: 1.0rem;padding: 1.0rem; font-size: 1.0rem;">Close</button>
+    </dialog>
+    <br>
+    <div class="controls" style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 1.0rem;">
+        <input type="file" id="mainImageInput" accept="image/*" style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px;" disabled><br><br>
+        <div style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0.5rem;">
+            <input type="checkbox" id="crashingChecbox" style="accent-color: rgba(255, 241, 147, 1);">
+            <p style="font-size: 1.0rem">Program having issues?</p>
+        </div>
+
+        <div style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0.5rem;">
+            <input type="range" min="10" max="100" value="50" class="slider" id="qualityRange" style="accent-color: rgba(255, 241, 147, 1); width: 15rem;" disabled>
+            <p style="font-size: 1.0rem">Quality: <span id="qualityValue">N/A</span> pibbles wide</p>
+        </div>
+        
+    </div>
+    <p style="font-size: 0.9em; margin-top: 0.9rem">If available, I'd recommend a quality setting of ~100 for detail and ~50 for file size, but it goes up to the maximum hardware limit! Best on desktop.</p>
+    <p style="font-size: 0.9em; margin-top: 0.3rem">The "Program having issues?" checkbox when enabled will slow down generation but help prevent crashes (if crashes occur).</p>
+    <hr style="color: rgb(255, 241, 147); border: 1px solid rgb(255, 241, 147); width: 30%; margin-top: 1.0rem; margin-bottom: 1.0rem;">
+
+    <button id="generateButton" style="padding: 1.0rem; font-size: 1.0rem;" disabled>Generate Mosaic</button>
+
+    <div style="display: flex; flex-direction: row;">
+        <button id="downloadButton" class="secondaryButton" style="display: none; padding: 1.0rem; font-size: 1.0rem;">Download Mosaic</button>
+        <button id="copyButton" class="secondaryButton" style="display: none; padding: 1.0rem; font-size: 1.0rem;">Copy to Clipboard</button>
+    </div>
+    
+
+    <h3 id="status"></h3>
+    <progress id="progressBar" value="0" max="100" style="width: 50%; display:none;"></progress>
+
+    <canvas id="outputCanvas"></canvas>
+    
+    <br></br>
+    
+    <footer style="color: white">
+        Website background by <a href="https://unsplash.com/@laup?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Lichtblau</a> on <a href="https://unsplash.com/photos/cluster-of-stars-in-the-sky-qVotvbsuM_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </footer> 
+    <button id="openCredits" style="margin-top: 1.0rem; padding: 1.0rem; font-size: 1.0rem;">Image Credits</button>
+
+</body>
+</html>

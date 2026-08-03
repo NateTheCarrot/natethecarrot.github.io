@@ -4,6 +4,7 @@
   box-sizing: border-box; 
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 @view-transition {
@@ -152,6 +153,29 @@ button:active {
   background-color: rgb(255, 221, 0);
 }
 
+.secondaryButton {
+  background-color: rgb(147, 214, 255);
+  border: none;
+  color: black;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  border-radius: 100px;
+  transition: background-color 0.3s ease, font-weight 0.3s ease;
+}
+
+.secondaryButton:hover {
+  background-color: rgb(71, 201, 255);
+  font-weight: 700;
+  cursor:pointer;
+}
+.secondaryButton:active {
+  background-color: rgb(0, 191, 255);
+}
+
 a {
   text-decoration: none;
   transition: color 0.3s ease;
@@ -164,4 +188,42 @@ a:hover {
 }
 a:active {
   color: rgb(255, 221, 0);
+}
+
+#creditsModal {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #0000005c;
+    border: 1px solid rgb(255, 221, 0);
+    color: white;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 0.15s;
+}
+
+#creditsModal::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+    animation-name: fadeIn;
+    animation-duration: 0.15s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0};
+  to {opacity: 1};
+}
+
+@media screen and (max-width: 768px) {
+  .pageTitle {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  button {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
 }
