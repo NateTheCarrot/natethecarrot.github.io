@@ -1,7 +1,7 @@
 [
   {
     "name": "alertPibble.jpg",
-    "rgb": [
+    "color": [
       171,
       158,
       150
@@ -9,7 +9,7 @@
   },
   {
     "name": "beautifulPibble.jpg",
-    "rgb": [
+    "color": [
       147,
       146,
       120
@@ -17,7 +17,7 @@
   },
   {
     "name": "bedazzledPibble.jpg",
-    "rgb": [
+    "color": [
       117,
       113,
       90
@@ -25,7 +25,7 @@
   },
   {
     "name": "bellyWashWashington.jpg",
-    "rgb": [
+    "color": [
       134,
       123,
       125
@@ -33,7 +33,7 @@
   },
   {
     "name": "burgerPibbleAgainButNotElectricBoogalooYouKnow.jpg",
-    "rgb": [
+    "color": [
       204,
       173,
       143
@@ -41,7 +41,7 @@
   },
   {
     "name": "burgerPibble.jpg",
-    "rgb": [
+    "color": [
       115,
       93,
       77
@@ -49,7 +49,7 @@
   },
   {
     "name": "chillingPibble.jpg",
-    "rgb": [
+    "color": [
       119,
       170,
       185
@@ -57,7 +57,7 @@
   },
   {
     "name": "closeupWashington.jpg",
-    "rgb": [
+    "color": [
       54,
       57,
       74
@@ -65,7 +65,7 @@
   },
   {
     "name": "covidPibble.jpg",
-    "rgb": [
+    "color": [
       172,
       154,
       157
@@ -73,7 +73,7 @@
   },
   {
     "name": "devilishPibble.jpg",
-    "rgb": [
+    "color": [
       169,
       86,
       91
@@ -81,7 +81,7 @@
   },
   {
     "name": "duckyWashWashington.jpg",
-    "rgb": [
+    "color": [
       92,
       83,
       75
@@ -89,7 +89,7 @@
   },
   {
     "name": "emoPibble.jpg",
-    "rgb": [
+    "color": [
       133,
       129,
       133
@@ -97,7 +97,7 @@
   },
   {
     "name": "explicitOmg.jpg",
-    "rgb": [
+    "color": [
       120,
       141,
       175
@@ -105,7 +105,7 @@
   },
   {
     "name": "firePibble.jpg",
-    "rgb": [
+    "color": [
       208,
       167,
       127
@@ -113,7 +113,7 @@
   },
   {
     "name": "geeble.jpg",
-    "rgb": [
+    "color": [
       97,
       97,
       79
@@ -121,7 +121,7 @@
   },
   {
     "name": "ggrrrowll.jpg",
-    "rgb": [
+    "color": [
       156,
       143,
       147
@@ -129,7 +129,7 @@
   },
   {
     "name": "heart.jpg",
-    "rgb": [
+    "color": [
       92,
       76,
       77
@@ -137,7 +137,7 @@
   },
   {
     "name": "hesSoCute.jpg",
-    "rgb": [
+    "color": [
       184,
       166,
       162
@@ -145,7 +145,7 @@
   },
   {
     "name": "holyCrapSomeonePutHimOut.jpg",
-    "rgb": [
+    "color": [
       234,
       212,
       192
@@ -153,7 +153,7 @@
   },
   {
     "name": "homelanderPibble.jpg",
-    "rgb": [
+    "color": [
       184,
       151,
       113
@@ -161,7 +161,7 @@
   },
   {
     "name": "imJustStealingThesePibblesButICantHelpMyself.jpg",
-    "rgb": [
+    "color": [
       205,
       194,
       214
@@ -169,7 +169,7 @@
   },
   {
     "name": "interestingBackdropPibble.jpg",
-    "rgb": [
+    "color": [
       144,
       118,
       112
@@ -177,7 +177,7 @@
   },
   {
     "name": "lockedInPibble.jpg",
-    "rgb": [
+    "color": [
       75,
       77,
       81
@@ -185,7 +185,7 @@
   },
   {
     "name": "ogPibbGif.jpg",
-    "rgb": [
+    "color": [
       125,
       107,
       81
@@ -193,7 +193,7 @@
   },
   {
     "name": "oneOfMyFavoritePibbles.jpg",
-    "rgb": [
+    "color": [
       154,
       124,
       132
@@ -201,7 +201,7 @@
   },
   {
     "name": "orangeSweaterPibble.jpg",
-    "rgb": [
+    "color": [
       215,
       163,
       145
@@ -209,7 +209,7 @@
   },
   {
     "name": "pibbleAhhhImBeingHeld.jpg",
-    "rgb": [
+    "color": [
       169,
       164,
       160
@@ -217,7 +217,7 @@
   },
   {
     "name": "pibbleBee.jpg",
-    "rgb": [
+    "color": [
       175,
       145,
       113
@@ -225,7 +225,7 @@
   },
   {
     "name": "pibbleChaos.jpg",
-    "rgb": [
+    "color": [
       141,
       100,
       73
@@ -233,7 +233,7 @@
   },
   {
     "name": "pibbleChill.jpg",
-    "rgb": [
+    "color": [
       178,
       153,
       142
@@ -241,7 +241,7 @@
   },
   {
     "name": "pibbleHoodie.jpg",
-    "rgb": [
+    "color": [
       167,
       140,
       99
@@ -249,7 +249,7 @@
   },
   {
     "name": "pibbleInPool.jpg",
-    "rgb": [
+    "color": [
       162,
       191,
       199
@@ -257,7 +257,7 @@
   },
   {
     "name": "pibbleOrangeSweaterAgain.jpg",
-    "rgb": [
+    "color": [
       186,
       132,
       110
@@ -265,7 +265,7 @@
   },
   {
     "name": "pibblePhonk.jpg",
-    "rgb": [
+    "color": [
       125,
       57,
       56
@@ -273,7 +273,7 @@
   },
   {
     "name": "pibbleRroooooff.jpg",
-    "rgb": [
+    "color": [
       178,
       175,
       121
@@ -281,7 +281,7 @@
   },
   {
     "name": "pibbleSchooling.jpg",
-    "rgb": [
+    "color": [
       170,
       158,
       167
@@ -289,7 +289,7 @@
   },
   {
     "name": "pibbleSleepAgain.jpg",
-    "rgb": [
+    "color": [
       137,
       163,
       178
@@ -297,7 +297,7 @@
   },
   {
     "name": "pibbleStare.jpg",
-    "rgb": [
+    "color": [
       146,
       99,
       102
@@ -305,7 +305,7 @@
   },
   {
     "name": "pibbleYell.jpg",
-    "rgb": [
+    "color": [
       156,
       157,
       115
@@ -313,7 +313,7 @@
   },
   {
     "name": "pibbleYelling.jpg",
-    "rgb": [
+    "color": [
       171,
       146,
       138
@@ -321,7 +321,7 @@
   },
   {
     "name": "pibbleZenTheGoat.jpg",
-    "rgb": [
+    "color": [
       101,
       130,
       163
@@ -329,7 +329,7 @@
   },
   {
     "name": "pibble.jpg",
-    "rgb": [
+    "color": [
       125,
       128,
       135
@@ -337,7 +337,7 @@
   },
   {
     "name": "professorPibble.jpg",
-    "rgb": [
+    "color": [
       121,
       97,
       119
@@ -345,7 +345,7 @@
   },
   {
     "name": "ripSirCharlesBarkley.jpg",
-    "rgb": [
+    "color": [
       100,
       97,
       99
@@ -353,7 +353,7 @@
   },
   {
     "name": "robePibble.jpg",
-    "rgb": [
+    "color": [
       158,
       127,
       135
@@ -361,7 +361,7 @@
   },
   {
     "name": "sirCharlesBarkleyWithAPurpleFilterBecauseHeDeservesToBeSpecialNotALotOfPurplePibbleImages.jpg",
-    "rgb": [
+    "color": [
       150,
       78,
       183
@@ -369,7 +369,7 @@
   },
   {
     "name": "skirtedPibble.jpg",
-    "rgb": [
+    "color": [
       136,
       137,
       110
@@ -377,7 +377,7 @@
   },
   {
     "name": "sleepingPibble.jpg",
-    "rgb": [
+    "color": [
       170,
       182,
       190
@@ -385,7 +385,7 @@
   },
   {
     "name": "sleepingWashington.jpg",
-    "rgb": [
+    "color": [
       112,
       97,
       94
@@ -393,7 +393,7 @@
   },
   {
     "name": "soPrecious.jpg",
-    "rgb": [
+    "color": [
       164,
       175,
       182
@@ -401,7 +401,7 @@
   },
   {
     "name": "thanksForWatching.jpg",
-    "rgb": [
+    "color": [
       167,
       141,
       126
@@ -409,7 +409,7 @@
   },
   {
     "name": "theHumbleLemonElectricBoogaloo.jpg",
-    "rgb": [
+    "color": [
       196,
       162,
       145
@@ -417,7 +417,7 @@
   },
   {
     "name": "theHumbleLemon.jpg",
-    "rgb": [
+    "color": [
       190,
       150,
       119
@@ -425,7 +425,7 @@
   },
   {
     "name": "thePretentiousLime.jpg",
-    "rgb": [
+    "color": [
       162,
       162,
       105
@@ -433,7 +433,7 @@
   },
   {
     "name": "thisIsPibbema.jpg",
-    "rgb": [
+    "color": [
       135,
       106,
       121
@@ -441,7 +441,7 @@
   },
   {
     "name": "threateningPibble.jpg",
-    "rgb": [
+    "color": [
       160,
       126,
       142
@@ -449,7 +449,7 @@
   },
   {
     "name": "tunnelPibble.jpg",
-    "rgb": [
+    "color": [
       198,
       89,
       113
@@ -457,7 +457,7 @@
   },
   {
     "name": "washingtonChan.jpg",
-    "rgb": [
+    "color": [
       116,
       103,
       83
@@ -465,7 +465,7 @@
   },
   {
     "name": "washingtonFurthermore.jpg",
-    "rgb": [
+    "color": [
       118,
       101,
       117
@@ -473,7 +473,7 @@
   },
   {
     "name": "washingtonPibbema.jpg",
-    "rgb": [
+    "color": [
       73,
       50,
       52
@@ -481,7 +481,7 @@
   },
   {
     "name": "washington.jpg",
-    "rgb": [
+    "color": [
       113,
       93,
       88
@@ -489,7 +489,7 @@
   },
   {
     "name": "watermelonPibbleHigh.jpg",
-    "rgb": [
+    "color": [
       153,
       104,
       99
