@@ -107,10 +107,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Downloads current canvas as a PNG file
     downloadButton.addEventListener('click', () => {
+        downloadButton.textContent = 'Download started!';
+        setTimeout(() => downloadButton.textContent = "Download Mosaic", 2000);
         const link = document.createElement('a');
         link.download = 'pibblification.png'; // File name
         link.href = canvas.toDataURL('image/png');
         link.click();
+        
     });
 
     // Copies current canvas as a PNG to the clipboard
@@ -131,7 +134,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 ]);
                 
                 // Looks weird without feedback telling the user it was copied
-    
                 copyButton.textContent = 'Copied!';
                 setTimeout(() => copyButton.textContent = "Copy to Clipboard", 2000);
             }, 'image/png');
