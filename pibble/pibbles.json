@@ -1,5 +1,13 @@
 [
   {
+    "name": "aFlowerAmongstTheGrass.jpg",
+    "rgb": [
+      134,
+      139,
+      78
+    ]
+  },
+  {
     "name": "alertPibble.jpg",
     "rgb": [
       171,
@@ -53,6 +61,14 @@
       119,
       170,
       186
+    ]
+  },
+  {
+    "name": "chunkster.jpg",
+    "rgb": [
+      98,
+      95,
+      89
     ]
   },
   {
@@ -128,6 +144,22 @@
     ]
   },
   {
+    "name": "happyPigSweater.jpg",
+    "rgb": [
+      164,
+      153,
+      160
+    ]
+  },
+  {
+    "name": "happyYawn.jpg",
+    "rgb": [
+      126,
+      142,
+      113
+    ]
+  },
+  {
     "name": "heart.jpg",
     "rgb": [
       92,
@@ -176,6 +208,14 @@
     ]
   },
   {
+    "name": "kisses.jpg",
+    "rgb": [
+      82,
+      79,
+      94
+    ]
+  },
+  {
     "name": "lockedInPibble.jpg",
     "rgb": [
       75,
@@ -197,6 +237,14 @@
       154,
       124,
       132
+    ]
+  },
+  {
+    "name": "oneWholeThought.jpg",
+    "rgb": [
+      223,
+      182,
+      122
     ]
   },
   {
@@ -360,6 +408,22 @@
     ]
   },
   {
+    "name": "restingOnPink.jpg",
+    "rgb": [
+      157,
+      99,
+      118
+    ]
+  },
+  {
+    "name": "restingWell.jpg",
+    "rgb": [
+      90,
+      73,
+      63
+    ]
+  },
+  {
     "name": "ripSirCharlesBarkley.jpg",
     "rgb": [
       100,
@@ -373,6 +437,14 @@
       158,
       127,
       135
+    ]
+  },
+  {
+    "name": "sideLeanGmail.jpg",
+    "rgb": [
+      168,
+      185,
+      206
     ]
   },
   {
@@ -413,6 +485,14 @@
       165,
       175,
       182
+    ]
+  },
+  {
+    "name": "spaDay.jpg",
+    "rgb": [
+      196,
+      160,
+      160
     ]
   },
   {
@@ -469,6 +549,14 @@
       198,
       89,
       113
+    ]
+  },
+  {
+    "name": "washMyBellayAlternative.jpg",
+    "rgb": [
+      111,
+      86,
+      63
     ]
   },
   {
