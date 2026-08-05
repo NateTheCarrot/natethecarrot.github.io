@@ -224,11 +224,35 @@
     ]
   },
   {
+    "name": "noticing.jpg",
+    "rgb": [
+      147,
+      130,
+      125
+    ]
+  },
+  {
+    "name": "ogPibbBasking.jpg",
+    "rgb": [
+      164,
+      133,
+      98
+    ]
+  },
+  {
     "name": "ogPibbGif.jpg",
     "rgb": [
       125,
       107,
       81
+    ]
+  },
+  {
+    "name": "ogPibbResting.jpg",
+    "rgb": [
+      112,
+      105,
+      104
     ]
   },
   {
@@ -253,6 +277,14 @@
       215,
       163,
       145
+    ]
+  },
+  {
+    "name": "patientYetAlert.jpg",
+    "rgb": [
+      103,
+      94,
+      94
     ]
   },
   {
@@ -416,6 +448,14 @@
     ]
   },
   {
+    "name": "restingPbCup.jpg",
+    "rgb": [
+      138,
+      115,
+      102
+    ]
+  },
+  {
     "name": "restingWell.jpg",
     "rgb": [
       90,
@@ -493,6 +533,14 @@
       196,
       160,
       160
+    ]
+  },
+  {
+    "name": "suchAHappyPuppy.jpg",
+    "rgb": [
+      134,
+      124,
+      122
     ]
   },
   {
