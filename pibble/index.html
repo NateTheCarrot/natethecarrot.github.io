@@ -73,18 +73,17 @@
         <button id="closeCredits" style="margin-top: 1.0rem;padding: 1.0rem; font-size: 1.0rem;">Close</button>
     </dialog>
     <br>
-    <div class="controls" style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 1.0rem;">
-        <input type="file" id="mainImageInput" accept="image/*" style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px;" disabled><br><br>
+    <div class="controls" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.0rem;">
+        <input type="file" id="mainImageInput" accept="image/*" style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px;" disabled>
         <div style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0.5rem;">
             <input type="checkbox" id="crashingChecbox" style="accent-color: rgba(255, 241, 147, 1);">
             <p style="font-size: 1.0rem">Program having issues?</p>
         </div>
 
-        <div style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0.5rem;">
-            <input type="range" min="10" max="100" value="50" class="slider" id="qualityRange" style="accent-color: rgba(255, 241, 147, 1); width: 15rem;" disabled>
+        <div style="padding: 0.4rem; border: 2px solid rgba(255, 241, 147, 1); border-radius: 10px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <input type="range" min="10" max="100" value="50" class="slider" id="qualityRange" style="accent-color: rgba(255, 241, 147, 1); max-width: 15rem;" disabled>
             <p style="font-size: 1.0rem">Quality: <span id="qualityValue">N/A</span> pibbles wide</p>
         </div>
-        
     </div>
     <p style="font-size: 0.9em; margin-top: 0.9rem">If available, I'd recommend a quality setting of ~100 for detail and ~50 for file size, but it goes up to the maximum hardware limit! Best on desktop.</p>
     <p style="font-size: 0.9em; margin-top: 0.3rem">The "Program having issues?" checkbox when enabled will slow down generation but help prevent crashes (if crashes occur).</p>
@@ -92,7 +91,7 @@
 
     <button id="generateButton" style="padding: 1.0rem; font-size: 1.0rem;" disabled>Generate Mosaic</button>
 
-    <div style="display: flex; flex-direction: row;">
+    <div style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; gap: 0.5rem;">
         <button id="downloadButton" class="secondaryButton" style="display: none; padding: 1.0rem; font-size: 1.0rem;">Download Mosaic</button>
         <button id="copyButton" class="secondaryButton" style="display: none; padding: 1.0rem; font-size: 1.0rem;">Copy to Clipboard</button>
     </div>
@@ -103,7 +102,7 @@
 
     <canvas id="outputCanvas"></canvas>
     
-    <br></br>
+    <br>
     
     <footer style="color: white">
         Website background by <a href="https://unsplash.com/@laup?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Paul Lichtblau</a> on <a href="https://unsplash.com/photos/cluster-of-stars-in-the-sky-qVotvbsuM_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

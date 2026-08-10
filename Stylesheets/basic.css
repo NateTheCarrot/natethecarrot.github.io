@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  text-align: center;
 }
 
 .siteHeader {
@@ -122,11 +123,14 @@ p {
   font-size: 1.5rem;
   font-weight: 300;
   font-style: normal;
+  text-align: center;
 }
 
 .sideBySideButtons {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -214,8 +218,18 @@ a:active {
 }
 
 @media screen and (max-width: 768px) {
+  .siteHeader {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .siteHeader nav ul {
+    gap: 15px;
+  }
+
   .pageTitle {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   
   p {
@@ -223,7 +237,11 @@ a:active {
   }
   
   button {
-    padding: 1rem;
+    padding: 0.8rem 1.2rem;
     font-size: 1.2rem;
+  }
+
+  #mainImageInput {
+    max-width: 100%;
   }
 }
